@@ -1,4 +1,4 @@
-* javascript 學習筆記
+javascript 學習筆記
 
 * 阮一峰 -- https://wangdoc.com/javascript/index.html
 
