@@ -1,0 +1,1 @@
+* https://wangdoc.com/javascript/types/index.html

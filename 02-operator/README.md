@@ -1,0 +1,1 @@
+* https://wangdoc.com/javascript/operators/index.html
