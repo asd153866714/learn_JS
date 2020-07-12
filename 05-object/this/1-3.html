@@ -1,0 +1,11 @@
+<input type="text" name="age" size=3 onChange="validate(this, 18, 99);">
+
+<script>
+    function validate(obj, lowval, hival) {
+        if ((obj.value < lowval) || (obj.value > hival)) console.log('Invalid Value!');
+    }
+</script>
+
+<!-- 上面代码是一个文本输入框，每当用户输入一个值，就会调用onChange回调函数，
+    验证这个值是否在指定范围。浏览器会向回调函数传入当前对象，
+    因此this就代表传入当前对象（即文本框），然后就可以从this.value上面读到用户的输入值。 -->
